@@ -1,0 +1,14 @@
+
+{
+  "name": "barrel-bottle-tabs",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://swastikbhardwaj.github.io/S9_CICD1/",
+  "scripts": {"dev":"vite","build":"vite build","preview":"vite preview"
+  ,"predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"},
+
+  "dependencies": {"react":"^18.2.0","react-dom":"^18.2.0","react-router-dom":"^6.22.3"},
+  "devDependencies": {"vite":"^5.0.0","@vitejs/plugin-react":"^4.0.0"}
+}
